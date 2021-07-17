@@ -1,0 +1,5 @@
+log_server_ip_address: 10.0.170.101
+log_server_port: 514
+log_folder: /var/log/session/
+log_deletion_threshold: 0
+log_archive_dir: /var/log/archive-session/

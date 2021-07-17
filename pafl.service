@@ -1,0 +1,9 @@
+[Unit]
+Description=Parser and Forwarder Log
+
+[Service]
+Type=simple
+ExecStart=python3 ~/.local/bin/run.py
+
+[Install]
+WantedBy=multi-user.target
